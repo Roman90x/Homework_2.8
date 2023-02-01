@@ -38,14 +38,15 @@ public class Main {
         DriverB driverB = new DriverB(" Водитель легкового автомобиля ", true, -10);
         DriverC driverC = new DriverC(" Водитель грузового автомобиля ", true, 25);
         DriverD driverD = new DriverD(" Водитель автобуса ", true, 0);
+        DriverD driverE = new DriverD(" Водитель автобуса ", true, 0);
+        DriverD driverF = new DriverD(" Водитель автобуса ", true, 0);
 
         List<Driver> drivers = new ArrayList<>();
         drivers.add(driverB);
         drivers.add(driverC);
         drivers.add(driverD);
-        drivers.add(driverB);
-        drivers.add(driverC);
-        drivers.add(driverD);
+        drivers.add(driverE);
+        drivers.add(driverF);
 
         Set<Driver> driverSet = new HashSet<>(drivers);
         System.out.println(driverSet);
